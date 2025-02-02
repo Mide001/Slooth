@@ -1,5 +1,4 @@
-packages/frontend/
-node_modules
+
 node_modules
 packages/backend/.env
 packages/backend/node_modules
