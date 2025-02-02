@@ -1,0 +1,14 @@
+{
+  "name": "mode-slooth",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "backend": "yarn workspace backend start",
+    "frontend": "yarn workspace frontend dev"
+  },
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+}

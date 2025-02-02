@@ -1,0 +1,36 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "start": "ts-node index.ts",
+        "build": "tsc",
+        "serve": "node dist/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/cors": "^2.8.17",
+        "@types/express": "^5.0.0",
+        "@types/node": "^22.12.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.7.2"
+    },
+    "dependencies": {
+        "@ai-sdk/openai": "^1.0.11",
+        "@goat-sdk/adapter-vercel-ai": "^0.2.0",
+        "@goat-sdk/core": "^0.4.3",
+        "@goat-sdk/plugin-erc20": "^0.2.9",
+        "@goat-sdk/plugin-kim": "^0.1.5",
+        "@goat-sdk/wallet-evm": "^0.2.3",
+        "@goat-sdk/wallet-viem": "^0.2.0",
+        "ai": "^4.0.22",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "viem": "2.21.49",
+        "zod": "^3.24.1"
+    },
+    "description": ""
+}

@@ -1,0 +1,6 @@
+packages/frontend/src/components
+node_modules
+node_modules
+packages/backend/.env
+packages/backend/node_modules
+packages/frontend/node_modules
