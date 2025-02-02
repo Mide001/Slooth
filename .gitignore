@@ -1,4 +1,4 @@
-packages/frontend/src/components
+packages/frontend/
 node_modules
 node_modules
 packages/backend/.env
