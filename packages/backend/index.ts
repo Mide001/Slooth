@@ -39,7 +39,7 @@ async function initializeTools() {
     plugins: [
       erc20({
         tokens: [
-          USDC
+          USDC,
         ],
       }),
       dexscreener(),
